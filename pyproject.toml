@@ -23,4 +23,10 @@ dev = [
     "httpx>=0.28.1",
     "pytest>=9.2.0",
     "pytest-cov>=7.1.0",
+
+    [tool.vercel]
+entrypoint = "src.subnet_calculator_sqa.api:app"
 ]
+
+[tool.vercel]
+entrypoint = "src.subnet_calculator_sqa.api:app"
